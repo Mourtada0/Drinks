@@ -1,0 +1,197 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: Barriecito;
+}
+
+body{
+    background-image: url("Images/642481.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+nav h1{
+    padding-left: 8px;
+}
+
+nav ul{
+    padding: 0px 20px 0px 0px;
+}
+
+nav ul li{
+    padding: 0px 0px 0px 10px;
+    display: inline;
+    font-size: 15px;
+    list-style: none;
+}
+
+.fa-house{
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}
+
+main{
+    padding-left: 0px;
+}
+
+main h1{
+    padding-left: 10px;
+    margin-top: 190px;
+    font-size: 40px;
+}
+
+main span h1{
+    padding-left: 15px;
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+main button{
+    font-size: 30px;
+
+    background-color: gray;
+
+    border: solid;
+    border-radius: 8px;
+    border-width: 0px;
+
+    margin-top: 20px;
+    margin-left: 15px;
+
+    padding: 12px 4px 12px 4px;
+
+}
+
+a{
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Contactmain{
+    font-size: 50px;
+    margin-top: 160px;
+}
+
+.Contactmain i{
+    margin: 30px;
+}
+
+.fa-facebook{
+    text-shadow: 0px 0px 40px rgb(92, 92, 92), 0px 0px 40px rgb(5, 30, 255);;
+    color: blue;
+}   
+
+.fa-instagram{
+    text-shadow:  -8px 8px 20px rgb(254,218,117), 8px 0px 20px rgb(150,47,191), 0px 0px 20px rgb(214,41,118), -8px -8px 20px rgb(79,91,213);
+    color: purple;
+}   
+
+.fa-twitter{
+    text-shadow: 0px 0px 40px cyan;
+    color: cyan;
+}   
+
+.Card{
+    position: relative;
+
+    border: solid;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 40px purple;
+
+    height: 540px;
+    width: 420px;
+
+    margin-top: 60px;
+}
+
+.Card h1{
+    margin-top: 18px;
+    padding-bottom: 18px;
+    border-bottom: solid;
+}
+
+.ColorSelectors{
+    margin-top: 40px;
+}
+
+.fa-square{
+    margin: 0px 20px 0px 20px;
+}
+
+main center div h1{
+    top: 0;
+    color: black;
+}
+
+th{
+    color: black;
+    font-size: 20px;
+}
+
+table{
+    border: solid;
+    border-radius: 15px;
+
+    padding: 10px 3px 10px 3px;
+}
+
+.Card button{
+    margin-top: 60px;
+
+    border-radius: 5px;
+
+    background-color: black;
+}
+
+.fa-droplet{
+    font-size: 50px;
+
+    margin-top: 50px;
+
+    color: gray;
+}
+
+label{
+    color: black;
+}
+
+h3{
+    color: black;
+}
+
+@media only screen and (min-width: 1332px) {
+
+
+    nav ul{
+        padding: 0px 200px 0px 0px;
+    }
+
+    main{
+        padding-left: 30px;
+    }
+
+    nav ul li{
+        padding: 0px 0px 0px 10px;
+        display: inline;
+        font-size: 25px;
+        list-style: none;
+    }
+
+}

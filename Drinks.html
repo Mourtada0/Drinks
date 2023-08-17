@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/d4f145c4cc.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html"><i class="fa-solid fa-house"></i></a>
+    </nav>
+
+    <main class="DrinksMain">
+        <center>
+            <div class="Card">
+                <h1>Select a color for your juice</h1>
+                <section class="ColorSelectors">
+                    <table>
+                        <tr>
+                            <th>Red</th>
+                            <th>Green</th>
+                            <th>Yellow</th>
+                            <th>burlywood</th>
+                        </tr>
+
+                        <tr>
+                            <td><i class="fa-solid fa-square" style="color: red; font-size: 40px;" id="Red"></i></td>
+                            <td><i class="fa-solid fa-square" style="color: green; font-size: 40px;" id="green"></i></td>
+                            <td><i class="fa-solid fa-square" style="color: yellow; font-size: 40px;" id="yellow"></i></td>
+                            <td><i class="fa-solid fa-square" style="color: burlywood; font-size: 40px;" id="burlywood"></i></td>
+                        </tr>
+                    </table>
+                </section>
+
+                <i class="fa-solid fa-droplet" id="drop"></i> <br>
+
+                <Button id="ColorSB"> Submit </Button><br>
+                <label for="">You chose</label><br>
+                <h3 id="ColorChoosen"></h3>
+            </div>
+        </center>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
